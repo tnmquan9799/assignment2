@@ -8,6 +8,7 @@ public class Define {
 	public static final int TYPE_OF_LECTURER = 1;
 	public static final int TYPE_OF_STAFF = 2;
 	public static final int TYPE_OF_CASUAL_WORKER = 3;
+	
 	public static final float DEFAULT_MINIMUM_WAGE = 730;
 	
 	public static int latestId = 0;
@@ -26,13 +27,13 @@ public class Define {
 	public static final int TYPE_OF_DEPUTY = 2;
 	public static final int TYPE_OF_EMPLOYEE = 3;
 	
-	public static final String QUALIFICATION_OF_BACHELOR = "Bachelor";
+	public static final String QUALIFICATION_OF_BACHELOR = "BACHELOR";
 	public static final String QUALIFICATION_OF_MASTER = "MASTER";
 	public static final String QUALIFICATION_OF_DOCTOR = "DOCTOR";
 	
-	public static final String POSITION_OF_CHIEF = "Chief";
-	public static final String POSITION_OF_DEPUTY = "Deputy";
-	public static final String POSITION_OF_EMPLOYEE = "Employee";
+	public static final String POSITION_OF_CHIEF = "CHIEF";
+	public static final String POSITION_OF_DEPUTY = "DEPUTY";
+	public static final String POSITION_OF_EMPLOYEE = "EMPLOYEE";
 
 	
 	public static float newMinimumWage = DEFAULT_MINIMUM_WAGE;

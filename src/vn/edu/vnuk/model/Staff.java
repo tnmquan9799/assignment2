@@ -75,7 +75,7 @@ public class Staff extends Person implements Observer {
 		return minimumWage;
 	}
 
-	public void setMinimumWage(int minimumWage) {
+	public void setMinimumWage(float minimumWage) {
 		this.minimumWage = minimumWage;
 	}
 
@@ -137,11 +137,6 @@ public class Staff extends Person implements Observer {
 		}
 		
 		public StaffBuilder setPosition(String position) {
-			this.position = position;
-			return this;
-		}
-	
-		public StaffBuilder setQualification(String position) {
 			this.position = position;
 			return this;
 		}
